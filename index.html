@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MusicoBot</title>
+	<link rel="shortcut icon" type="image/png" href="img/musicobotlogo.ico">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Acceuil</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="commands">Commandes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://discord.com/api/oauth2/authorize?client_id=871052387752747018&permissions=8&scope=bot">Inviter</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img class="image" src="img/test.png">
+			<div class="carousel-caption">
+				<h1 class="display-2">MusicoBot</h1>
+				<h3>Bot complet, et simple</h3>
+				<a href="https://discord.com/api/oauth2/authorize?client_id=871052387752747018&permissions=8&scope=bot"><button type="button" class="btn btn-outline-light btn-lg">Inviter</button></a>
+				<a href="commands"><button type="button" class="btn btn-primary btn-lg">Commandes</button></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">En recherche de partenaire</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#"><button type="button" class="btn btn-outline-secondary
+			btn-lg">Partenaire</button></a>
+		</div>
+	</div>
+</div>
+
+<!--- Three Column Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<img class="image" src="img/slashscommands.png">
+			<h3>Slashs Commands</h3>
+			<p>Développé avec les dernières fonctionnalité de Discord</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<img class="image" src="img/playlist.png">
+			<h3>Playlist</h3>
+			<p>Disponible pour retrouver ses musique facilement</p>
+		</div>
+		<div class="col-xs-12 col-md-4">
+			<img class="image" src="img/musique.png">
+			<h3>Musique</h3>
+			<p>Ecouter votre musique simplement avec vos amis</p>
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding" data-aos="fade-up">
+		<div class="row text-center">
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>Musico Bot &copy; By ToStam </h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>
